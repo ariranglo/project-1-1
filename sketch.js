@@ -49,7 +49,7 @@ function preload() {
 function setup() {
   createCanvas(375 * v,812 * v);
   //webcam = createCapture(VIDEO);
-  webcam = createVideo('C:/Users/bo/Downloads/climb.MOV', playVideo)
+  webcam = createVideo('climb.MOV', playVideo)
   //webcam = createVideo('', playVideo);
   webcam.size(375 * v,600 * v);
   webcam.hide();
